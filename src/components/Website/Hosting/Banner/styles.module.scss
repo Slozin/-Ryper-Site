@@ -1,0 +1,23 @@
+.Banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(40, 36, 56), rgb(20, 18, 27));
+    border: 2px solid rgb(40, 36, 56);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 50px;
+    h3 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    img {
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+    }
+}

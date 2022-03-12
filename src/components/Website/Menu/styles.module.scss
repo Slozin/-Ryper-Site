@@ -1,0 +1,47 @@
+.Menu {
+    .Brand {
+        cursor: pointer;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255) !important;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 15px;
+        transition: 0.5s;
+        &:hover {
+            background: rgb(40, 36, 56);
+            font-weight: 500;
+            border-radius: 6px;
+            padding: 10px 20px !important;
+            transition: 0.5s;
+        }
+        i {
+            margin-right: 5px;
+        }
+    }
+    .Active {
+        background: rgb(40, 36, 56);
+        font-weight: 500;
+        border-radius: 6px;
+        padding: 10px 20px !important;
+    }
+    .Panel {
+        background: linear-gradient(rgb(0, 161, 241), rgb(0, 144, 216));
+        font-weight: 500;
+        border-radius: 6px;
+        padding: 10px 20px !important;
+        transition: 0.5s;
+        &:hover {
+            background: linear-gradient(rgb(0, 144, 216), rgb(0, 144, 216));
+            transition: 0.5s;
+        }
+    }
+    .Toggle {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        box-shadow: none;
+        border: 0;
+    }
+}

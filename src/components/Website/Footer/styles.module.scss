@@ -1,0 +1,33 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgb(40, 36, 56);
+    border-top: 2px solid rgb(52, 48, 73);
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+    padding: 50px 100px;
+    margin-top: 100px;
+    h5 {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        @media (max-width: 1024px) {
+            margin: 20px 0;
+        }
+        li {
+            color: rgb(209, 209, 209);
+            cursor: pointer;
+            margin-bottom: 5px;
+            transition: 0.5s;
+            &:hover {
+                color: rgb(255, 255, 255);
+                transition: 0.5s;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.Plans {
+    margin-top: 100px;
+    .Locations {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+        .Location {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            cursor: pointer;
+            padding: 20px 40px;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            margin-right: 10px;
+            background-color: rgba(0, 0, 0, 0.068);
+            border: 2px solid rgb(40, 36, 56);
+            border-radius: 6px;
+            transition: transform 0.2s;
+            &:hover {
+                transition: transform 0.2s;
+                transform: scale(1.03);
+            }
+            .Name {
+                p {
+                    font-weight: 600;
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 10px;
+                }
+                small {
+                    font-weight: 300;
+                    margin-left: 10px;
+                }
+            }
+            img {
+                border-radius: 48px;
+            }
+        }
+        .Active {
+            border: 2px solid rgb(0, 148, 25);
+        }
+    }
+    .Plan {
+        background: rgb(40, 36, 56);
+        box-shadow: 0 0 22px -6px rgb(0 0 0 / 20%);
+        border-radius: 12px;
+        margin-right: 10px;
+        .Icon {
+            background: rgb(29, 26, 41);
+            box-shadow: 0 0 22px -6px rgb(0 0 0 / 20%);
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+        .Title {
+            text-align: center;
+            h4 {
+                font-size: 25px;
+                font-weight: 700;
+            }
+        }
+        .Price {
+            text-align: center;
+            p {
+                font-size: 25px;
+                font-weight: 500;
+                margin: 0;
+                padding: 0;
+                span {
+                    font-size: 15px;
+                    font-weight: 200;
+                }
+            }
+        }
+        .Body {
+            margin: 20px 0;
+            padding: 0 20px;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                li {
+                    i {
+                        color: rgb(0, 255, 42);
+                    }
+                }
+            }
+        }
+        .Buy {
+            text-align: center;
+            button {
+                background: rgb(29, 26, 41);
+                color: rgb(255, 255, 255);
+                border: 0;
+                border-radius: 6px;
+                margin-bottom: 20px;
+                padding: 10px;
+                transition: 0.5s;
+                &:hover {
+                    background: rgb(20, 18, 29);
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

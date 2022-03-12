@@ -1,0 +1,84 @@
+.cardApresentation {
+    z-index: 94;
+    background-color: #282438 !important;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto !important;
+    margin-top: 90px !important;
+    -webkit-background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 280px;
+    text-align: center;
+    @media (max-width: 768px) {
+        height: 290px !important;
+    }
+    .textArea {
+        margin-top: 15px;
+        width: 100%;
+        padding: 15px 30px;
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+        h4 {
+            width: 600px;
+            margin-top: 15px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            font-size: 27px;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif !important;
+            @media (max-width: 768px) {
+                text-align: center;
+                font-size: 20px;
+                margin-bottom: 15px !important;
+                width: 100% !important;
+                padding: 0;
+                margin: 0;
+            }
+        }
+        p {
+            text-align: left;
+            color: #a8a7ac !important;
+            width: 600px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            font-size: 18px;
+            @media (max-width: 768px) {
+                text-align: justify;
+                width: 100% !important;
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .buttonsActions {
+            display: flex;
+            flex-direction: row;
+            margin-top: 25px;
+            padding: 15px 0px;
+            button {
+                font-family: 'Montserrat', sans-serif !important;
+                text-transform: uppercase;
+                font-weight: 600;
+                margin-right: 15px;
+                padding: 10px 25px;
+                background-color: #1d1a2c;
+                border: none !important;
+                color: rgba(254, 254, 255, 0.781);
+                border-radius: 10px;
+            }
+        }
+    }
+    .ImageApresentation {
+        position: absolute !important;
+        top: 245px !important;
+        width: 100px;
+        margin-top: -250px !important;
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+    }
+}
